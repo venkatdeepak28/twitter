@@ -1,0 +1,43 @@
+POST https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/register/
+Content-type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+###
+
+POST https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/login/
+Content-type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+###
+
+GET https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/user/tweets/feed
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzE4NjQ5NDg4fQ.f4csa2Hsm7Go1UUKjhhvvr-dOijsAtmsqJ-VDjukAfY
+
+###
+
+GET https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/user/following/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzE4NjQ5NDg4fQ.f4csa2Hsm7Go1UUKjhhvvr-dOijsAtmsqJ-VDjukAfY
+
+###
+
+GET https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/user/followers/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzE4NjQ5NDg4fQ.f4csa2Hsm7Go1UUKjhhvvr-dOijsAtmsqJ-VDjukAfY
+
+###
+
+GET https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/tweets/4
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzE4NjQ5NDg4fQ.f4csa2Hsm7Go1UUKjhhvvr-dOijsAtmsqJ-VDjukAfY
+
+###
+GET https://venkatadeepakzabmsnjscadijbi.drops.nxtwave.tech/tweets/4/likes
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzE4NjQ5NDg4fQ.f4csa2Hsm7Go1UUKjhhvvr-dOijsAtmsqJ-VDjukAfY
